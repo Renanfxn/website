@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tecnologias em Sala de Aula</title>
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f0f2f5;
+                color: #333;
+            }
+            header {
+                background-color: #4CAF50;
+                color: white;
+                padding: 2rem;
+                text-align: center;
+            }
+            header h1 {
+                font-size: 2.5rem;
+                margin: 0;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 20px auto;
+                padding: 0 20px;
+            }
+            .section {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin-bottom: 40px;
+            }
+            .card {
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                margin: 15px;
+                width: calc(33.333% - 30px);
+                transition: transform 0.3s ease-in-out;
+            }
+            .card:hover {
+                transform: translateY(-5px);
+            }
+            .card img {
+                border-radius: 10px 10px 0 0;
+                max-width: 100%;
+                height: auto;
+                display: block;
+            }
+            .card-content {
+                padding: 20px;
+            }
+            .card h2 {
+                color: #4CAF50;
+                margin-top: 0;
+            }
+            .card p {
+                line-height: 1.6;
+            }
+            footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 2rem 0;
+                position: relative;
+                bottom: 0;
+                width: 100%;
+                margin-top: 40px;
+            }
+            @media (max-width: 768px) {
+                .card {
+                    width: calc(50% - 30px);
+                }
+            }
+            @media (max-width: 500px) {
+                .card {
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Tecnologias em Sala de Aula</h1>
+        </header>
+
+        <div class="container">
+            <div class="section">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/49122a_eed4c76c49274367a2b0350ff8cedaa5~mv2.png/v1/fill/w_980,h_653,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/49122a_eed4c76c49274367a2b0350ff8cedaa5~mv2.png">
+                    <div class="card-content">
+                        <h2>Máquinas Virtuais</h2>
+                        <p>As <strong>máquinas virtuais (VMs)</strong> permitem a execução de vários sistemas operacionais em uma única máquina física, oferecendo flexibilidade para experiências educacionais e testes de novos ambientes.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBIb3VZ1JnjwO0TkfyhKC_PcPMTdLKoTgPaw&s">
+                    <div class="card-content">
+                        <h2>Redes Virtuais</h2>
+                        <p>Simulando redes reais, as <strong>redes virtuais</strong> proporcionam conectividade e segurança em um ambiente educacional sem a necessidade de hardware físico.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw0a-p2doLnhfCECcALOf1n7vVuZQg571B3Q&s">
+                    <div class="card-content">
+                        <h2>Servidores de Aplicativos</h2>
+                        <p>Alunos podem implantar aplicações em <strong>servidores de aplicativos</strong> na nuvem, aprendendo sobre escalabilidade, segurança e gerenciamento de dados em tempo real.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1AXI-W3MpN_f-syZlMd8wexa5uTcci-xiqg&s">
+                    <div class="card-content">
+                        <h2>Bancos de Dados</h2>
+                        <p>Os <strong>bancos de dados</strong> são essenciais para gerenciar grandes volumes de informações. Alunos aprendem a usar bancos SQL e NoSQL na prática.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSIIt3_Kf8EbUbkwoWuCWhlk-AEKo8oytExQ&s" alt="Redes Wireless em Projetos de TCC">
+                    <div class="card-content">
+                        <h2>Meu TCC: Redes Wireless</h2>
+                        <p>Meu TCC explora a <strong>rede wireless</strong> e suas aplicações em ambientes educacionais, mostrando como a conectividade sem fio pode transformar a experiência de ensino e aprendizagem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Desenvolvido na Azure - Serviço em Nuvem</p>
+        </footer>
+    </body>
+    </html>
